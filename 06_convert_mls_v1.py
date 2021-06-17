@@ -25,6 +25,6 @@ unit = input("Unit? ")
 if unit in unit_dict:                # if unit in dictionary convert to ml
     factor = unit_dict.get(unit)
     amount *= factor
-    print("amount in ml {}")
+    print("amount in ml {}".format(amount))
 else:                                # if unit unknown, leave as is
-    print("{} is unchanged")
+    print("{} is unchanged".format(amount))
