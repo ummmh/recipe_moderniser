@@ -173,7 +173,7 @@ def unit_checker(raw_unit):
 unit_dict = {
     "teaspoon": 5,
     "tablespoon": 15,
-    "cup": 250,
+    "cup": 237,
     "ounce": 28.35,
     "pint": 473,
     "quart": 946,
